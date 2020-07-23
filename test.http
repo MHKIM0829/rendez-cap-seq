@@ -1,0 +1,20 @@
+###
+POST http://localhost:4004/seq/IFLT0001
+Content-Type: application/json;IEEE754Compatible=true
+
+{
+    "FLOWCODE" : "MH001",
+    "FLOWCNT" : "001",
+    "TITLE" : "결재 테스트 1000"
+}
+
+
+###
+POST <<service url>>/seq/IFLT0001
+Content-Type: application/json;IEEE754Compatible=true
+
+{
+    "FLOWCODE" : "MH001",
+    "FLOWCNT" : "001",
+    "TITLE" : "결재 테스트 1000"
+}
